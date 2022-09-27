@@ -1,14 +1,22 @@
-import React from 'react';
 import {
   View,
   Image,
-  Text
 } from 'react-native';
 import { NewTask } from '../NewTask';
 
 import { styles } from './styles';
 
-export function Header() {
+type Props = {
+  taskDescryption: string;
+  setTaskDescryption: (taskDescryption: string) => void;
+  addNewTask: () => void;
+}
+
+export function Header({ 
+  taskDescryption, 
+  setTaskDescryption,
+  addNewTask
+}: Props) {
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
@@ -17,7 +25,11 @@ export function Header() {
           source={require('../../assets/logo.png')}
         />  
       </View>
-      <NewTask />
+      <NewTask 
+        taskDescryption={taskDescryption}
+        setTaskDescryption={setTaskDescryption}
+        addNewTask={addNewTask}
+      />
     </View>
   );
 }

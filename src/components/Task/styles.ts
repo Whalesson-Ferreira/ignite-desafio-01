@@ -1,33 +1,27 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-  container: {
-    paddingHorizontal: 24,
-    marginTop: 54
-  },
-  info: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'flex-end'
-  },
-  
-  tasks: {
-    borderTopColor: '#333',
-    borderTopWidth: 1,
-    marginTop: 20,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingHorizontal: 20,
-    paddingVertical: 48,
-  },
-  text: {
-    marginTop: 16,
-    color: '#808080',
-    fontSize: 14,
-    fontWeight: '700'
-  },
-  subText: {
-    color: '#808080',
-    fontSize: 14,
-  }
+	container: {
+		width: '100%',
+		flexDirection: 'row',
+		alignItems: 'center',
+		padding: 12,
+		backgroundColor: '#262626',
+		borderColor: '#333',
+		borderWidth: 1,
+		borderRadius: 8,
+		marginBottom: 8
+	},
+	completeTaskIcon: {
+		backgroundColor: '#5E60CE',
+		borderRadius: 100,
+		padding: 4
+	},
+	descryption: {
+		flex: 1,
+		paddingHorizontal: 12,
+		fontWeight: '400',
+		fontSize: 14,
+		color: '#F2F2F2'
+	}
 });

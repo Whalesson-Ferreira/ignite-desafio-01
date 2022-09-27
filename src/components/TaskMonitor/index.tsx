@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   View,
   Text
@@ -8,9 +7,10 @@ import { styles } from './styles';
 
 type Props = {
   taskStatus: 'Criadas' | 'Concluídas';
+  taskCounter: number;
 }
 
-export function TaskMonitor({ taskStatus }:Props) {
+export function TaskMonitor({ taskStatus, taskCounter }:Props) {
   return (
     <View style={styles.container}>
       <Text
@@ -18,9 +18,8 @@ export function TaskMonitor({ taskStatus }:Props) {
           {
             color: taskStatus === 'Criadas' ? '#4EA8DE' : '#8284FA'
           }]}
-          // taskStatus === 'Criadas' ? {color: '#4EA8DE'} : {color: '#8284FA'}]}
         >{taskStatus}</Text>
-      <Text style={styles.taskCounter}>0</Text>
+      <Text style={styles.taskCounter}>{taskCounter}</Text>
     </View>
   );
 }

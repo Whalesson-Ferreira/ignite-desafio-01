@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
 		flexDirection: 'row',
-
 	},
 	input: {
 		height: 54,
@@ -25,6 +24,5 @@ export const styles = StyleSheet.create({
 		justifyContent: 'center',
 		borderRadius: 6,
 		marginLeft: 4,
-		// padding: 18
 	},
 });
