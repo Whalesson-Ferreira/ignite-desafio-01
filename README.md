@@ -1,7 +1,7 @@
 
 # ignite-desafio-01
 
-Projeto desenvolvido durante as aulas do Ignite da Rocketseat. O objetivo do desafio foi a criação de uma aplicação de controle de tarefas no estilo to-do list, que contém as seguintes funcionalidades:
+Projeto desenvolvido durante as aulas do Ignite da Rocketseat. O objetivo do desafio foi a criação de um aplicativo de controle de tarefas no estilo to-do list, que contém as seguintes funcionalidades:
 
 
 ## Funcionalidades
