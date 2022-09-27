@@ -34,15 +34,16 @@ Execute o projeto com expo start
 ```
     
 ## Screenshots
-
-Lista vazia.
-![App Screenshot](https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190112.png?raw=true)
-
-- Adicionando uma tarefa à lista.
-![App Screenshot](https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190141.png?raw=true)
-
-Visualização da lista de tarefas.
-![App Screenshot](https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190334.png?raw=true)
+<p align="center" width="100%">
+    - Lista vazia.
+    <img width="33%" src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190112.png?raw=true">
+    
+    - Adicionando uma tarefa à lista.
+    <img width="33%" src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190141.png?raw=true">
+    
+    - Visualização da lista de tarefas.
+    <img width="33%" src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190334.png?raw=true">
+</p>
 
 
 ## Aprendizados
