@@ -35,9 +35,15 @@ Execute o projeto com expo start
     
 ## Screenshots
 <p align="center" width="100%">
-  <img width="32%" src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190112.png?raw=true">
-  <img width="32%" src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190141.png?raw=true">
-  <img width="32%" src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190334.png?raw=true">
+  <p width=32%%>
+    <img src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190112.png?raw=true">
+  </p>
+  <p width=32%%>
+    <img src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190141.png?raw=true">
+  </p>
+  <p width=32%%>
+    <img src="https://github.com/Whalesson-Ferreira/ignite-desafio-01/blob/main/screenshots/Screenshot_20220927-190334.png?raw=true">
+  </p>
 </p>
 
 
