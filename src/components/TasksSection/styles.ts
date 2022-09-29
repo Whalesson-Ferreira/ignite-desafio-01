@@ -23,7 +23,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     borderTopColor: '#333',
     borderTopWidth: 1,
-    marginTop: 20,
     alignItems: 'center',
     justifyContent: 'flex-start',
     paddingVertical: 48,
